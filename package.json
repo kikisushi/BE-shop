@@ -1,11 +1,13 @@
 {
-  "name": "node-shop",
+  "name": "be-shop",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/app.js",
+  "repository": "https://github.com/kikisushi/BE-shop.git",
+  "author": "코딩배우는kikiSushi <165127332+kikisushi@users.noreply.github.com>",
   "license": "MIT",
   "type": "module",
-  "dependencies": {
-    "express": "^4.19.2",
-    "mongoose": "^8.3.5"
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node app.js"
   }
 }
